@@ -4,11 +4,12 @@
 }
 
 body{
-    background-color: rgba(199, 218, 235, 0.415);
+    background-color: aliceblue;
     font-family: sans-serif;
     padding: 0 auto;
     margin: 0 ;
 }
+
 .conteiner {
     display: flex;
     flex-direction: column;
@@ -16,16 +17,19 @@ body{
     justify-content:center;
     
 }
+
+legend{
+    font-size: 25px;
+}
 .fieldsetGlobal{
     border-radius: 8px;
-    width: 30%;
+    width: 20%;
     margin: 8px 0;
     padding: 15px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px;
 }
 
-.add-item{
-    width: 30%;
-}
 .form {
     display: flex;
     flex-direction: column;
@@ -34,6 +38,7 @@ body{
 .imput-text{
     height: 30px;
     margin: 5px 0;
+    font-size: 20px;
 }
 .conteiner-bt{
     display: flex;
@@ -62,6 +67,7 @@ body{
     padding-top: 0px;
     background-color: aliceblue;
     height: 500px;
+    background-color: white;
 }
 
 .list{
