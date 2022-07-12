@@ -10,14 +10,33 @@
 
 <body>
 
+
+
     <main class="conteiner">
         <h1>createElements</h1>
 
-        <ul class="list">
-            <li class="item">maça</li>
-            <li class="item">manga</li>
-        </ul>
+        <fieldset class="add-item fieldsetGlobal">
+            <legend>Adicionar itens</legend>
 
+            <form action="" name="form" class="form">
+                <label for="name">Digite o item da lista</label>
+                <input type="text" class="imput-text" name="nome">
+                <div class="conteiner-bt">
+                    <input type="submit" value="Adicionar" class="buttom">
+                </div>
+            </form>
+
+        </fieldset>
+
+        <fieldset class="added-items fieldsetGlobal">
+            <legend>Itens adicionados</legend>
+
+            <ul class="list">
+                <li class="item">Maça</li>
+                <li class="item">Manga</li>
+            </ul>
+
+        </fieldset>
 
     </main>
 

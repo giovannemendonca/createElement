@@ -1,6 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
-    background-color: rgba(199, 218, 235, 0.415);
+    background-color: aliceblue;
     font-family: sans-serif;
     padding: 0 auto;
     margin: 0 ;
@@ -14,10 +18,60 @@ body{
     
 }
 
-.list {
+legend{
+    font-size: 25px;
+}
+.fieldsetGlobal{
+    border-radius: 8px;
+    width: 20%;
+    margin: 8px 0;
+    padding: 15px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.imput-text{
+    height: 30px;
+    margin: 5px 0;
+    font-size: 20px;
+}
+.conteiner-bt{
+    display: flex;
+    justify-content: center;
+}
+
+.buttom{
+    background-color: rgb(102, 110, 107);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.buttom:active{
+    background-color: rgb(152, 214, 193);
+}
+
+.added-items{
+    margin: 0;
+    padding-top: 0px;
     background-color: aliceblue;
-    height: 600px;
-    width: 30%;
+    height: 500px;
+    background-color: white;
+}
+
+.list{
+    padding-left: 5px;
 }
 
 .item{
